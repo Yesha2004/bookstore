@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-dark text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="#">Books Lounge</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Books</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Categories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+                <form class="form-inline ml-3">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search books" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-50" src="https://www.greenandturquoise.com/wp-content/uploads/2022/11/Best-Colleen-Hoover-Books-In-Order.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Featured Book 1</h5>
+                    <p>Special offer on this book.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-50" src="https://katiecouric.com/wp-content/uploads/2024/04/Colleen-Hoover.png"alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Featured Book 2</h5>
+                    <p>Check out this bestseller.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-50" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/12/it-ends-with-us-adaptation-verity-better-colleen-hoover-book.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Featured Book 3</h5>
+                    <p>Don't miss this amazing book.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Book Cards -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- Example Book Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://bukharibooks.com/wp-content/uploads/2020/04/ugly-love.png" alt="Book Cover">
+                    <div class="card-body">
+                        <h5 class="card-title">UGLY LOVE</h5>
+                        <p class="card-text">Written by Colleen Hoover</p>
+                        <p class="card-text">450/-</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                        <a href="#" class="btn btn-secondary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.pangobooks.com/images/0f260216-c740-435f-af35-0f4b7bfc9282?width=800&quality=85&crop=1:1" alt="Book Cover">
+                    <div class="card-body">
+                        <h5 class="card-title">THE SPANISH LOVE DECEPTION</h5>
+                        <p class="card-text">Written by Elena Armas</p>
+                        <p class="card-text">800/-</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                        <a href="#" class="btn btn-secondary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.pangobooks.com/images/205babee-d078-41ef-9654-f5d659786902?width=800&quality=85&crop=1%3A1" alt="Book Cover">
+                    <div class="card-body">
+                        <h5 class="card-title">THE ICEBREAKER</h5>
+                        <p class="card-text">Written by Hannah Grace</p>
+                        <p class="card-text">350/-</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                        <a href="#" class="btn btn-secondary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.pangobooks.com/images/e77b8bc7-770e-43bf-90c8-ff5a0b42ab10?width=800&quality=85&crop=1%3A1" alt="Book Cover">
+                    <div class="card-body">
+                        <h5 class="card-title">FIVE FEETS APART</h5>
+                        <p class="card-text">Written by Rachael Lippincott</p>
+                        <p class="card-text">$19.99</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                        <a href="#" class="btn btn-secondary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.pangobooks.com/book_images/Ji3PTQ5SW6QTOERGa3NoLuOwAtu1/b63bc9bc-1372-4e0c-8d46-a3913a61cb80_1080x1080?width=800&quality=85&crop=1%3A1" alt="Book Cover">
+                    <div class="card-body">
+                        <h5 class="card-title">TWISTED SERIES</h5>
+                        <p class="card-text">Written by Anna Huang</p>
+                        <p class="card-text">1500/-</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                        <a href="#" class="btn btn-secondary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.pangobooks.com/images/745b5ab5-d413-474a-9778-7ff11b5f6273?width=800&quality=85&crop=1%3A1" alt="Book Cover">
+                    <div class="card-body">
+                        <h5 class="card-title">YOU'VE REACHED SAM</h5>
+                        <p class="card-text">Written by Dustin Thao</p>
+                        <p class="card-text">650/-</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                        <a href="#" class="btn btn-secondary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Online Bookstore. All rights reserved.</p>
+            <div>
+                <a href="#" class="text-white mx-2">Privacy Policy</a>
+                <a href="#" class="text-white mx-2">Terms of Service</a>
+                <a href="#" class="text-white mx-2">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap and JavaScript libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
